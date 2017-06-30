@@ -1,0 +1,26 @@
+<!-- title:Creating pages -->
+<!-- menu:Usage/Creating pages -->
+<!-- position:100 -->
+<p>Every htmx file on the content directory is a page, the location of the page don't influenciate the position on menu, the files may have special comment tags that tells the CMS how to handle that page.</p>
+<p>
+	<div style="color:green">&lt;!-- title:page title --&gt;</div>
+	<div>The title that will appear on tab and before the line on the top of the page.</div>
+</p>
+<p>
+	<div style="color:green">&lt;!-- menu:Menu/submenu --&gt;</div>
+	<div>The name that the page will have on menu, use slashes to create submenus</div>
+	<div>Pages without this tag will not appear on menu, but will still be accessible</div>
+</p>
+<p>
+	<div style="color:green">&lt;!-- position:10 --&gt;</div>
+	<div>The position where the page will appear on menu</div>
+</p>
+<p>
+	<div style="color:green">&lt;!-- nolink:1 --&gt;</div>
+	<div>Indicates that the menu item will appear on menu without a link</div>
+</p>
+<p>When htaccess is enabled, you can reference the resources relatively to htmx file's directory</p>
+<p>The image below will be broken if you disable htaccess, because it is in the same directory of the htmx file</p>
+<img src="image.png"></img>
+<p>If the requested file does not exists, the 404.htmx will be delivered</p>
+<p style="color:red">After you modify the menu, you must delete the file menu_cache.htmx on cms's root directory</p>

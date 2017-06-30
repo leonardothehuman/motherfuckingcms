@@ -1,0 +1,10 @@
+<!-- title:Request process -->
+<!-- menu:Usage/Request process -->
+<!-- position:300 -->
+
+<p>When you access a path that contains the cms's root directory, if the file exists it is sent to you.</p>
+<p>If the file does not exists, htacces verify if this file exists on the content direcotry.</p>
+<p>When you access a path that contains the cms's root directory and the file is not found by htaccess, an "f" parameter is sent as querystring to the index.php file containing the rest of the path.</p>
+<p>If this path is a directory, the Mother***king CMS shows the index.htmx file of the specified path.</p>
+<p>If this path is not a directory, it shows the file {sent string}.htmx</p>
+<p>If the file menu_cache.htmx does not exists, Mother***king CMS opens all .htmx files on the content directory to generate the menu,  if the file exists, it uses it as menu instead.</p>

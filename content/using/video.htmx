@@ -1,0 +1,27 @@
+<!-- title:Embbeding video -->
+<!-- menu:Usage/Embbeding video -->
+<!-- position:200 -->
+
+<p>Put the iframed videos on a div with a videoWrapper class to make them responsive</p>
+<div>
+<pre>
+&lt;div class="videoWrapper"&gt;
+	&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Qj0Dmwxv-KY" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</pre>
+</div>
+<div class="videoWrapper">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/Qj0Dmwxv-KY" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<p>Add the r43 class for videos with 4:3 aspect ratio</p>
+<div>
+<pre>
+&lt;div class="videoWrapper r43"&gt;
+	&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/DhNMJahKOLk" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</pre>
+</div>
+<div class="videoWrapper r43">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/DhNMJahKOLk" frameborder="0" allowfullscreen></iframe>
+</div>

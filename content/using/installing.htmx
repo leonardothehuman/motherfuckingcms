@@ -1,0 +1,5 @@
+<!-- title:Installing -->
+<!-- menu:Usage/Installing -->
+<!-- position:50 -->
+
+<p>To install the Mother***king CMS, you just need to extract it on the server directory and edit the config.php, an apropriate .htaccess file will be generated, you must delete .htaccess and menu_cache.htmx if you change the settings or change the installation directory.</p>

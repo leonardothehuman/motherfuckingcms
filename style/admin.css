@@ -1,0 +1,133 @@
+/*Password changing*/
+.btn-spacer{
+	height:4px;
+}
+/*File editor*/
+#file-editor{
+	display:block;
+}
+a.button {
+	font-size:14px;
+	padding: 0px 30px;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: initial;
+}
+#filecontent{
+	margin: auto;
+	display:block;
+	width:90%;
+	height:450px;
+}
+div.filecontent-clone{
+	margin: auto;
+	display:block;
+	width:90%;
+	text-align:right;
+}
+#wysiwyg-wrapper{
+	overflow:auto;
+	height:400px;
+	display:none;
+}
+#wysiwyg-wrapper > .wysiwyg{
+	width:auto;
+	word-break: normal;
+}
+#wysiwyg-changer, #wysiwyg-buttons{
+	text-align: center;
+}
+#wysiwyg-buttons button, #wysiwyg-changer button{
+	border:1px solid black;
+	background-color: #aec8f2;
+	margin:0px 0px 10px 0px;
+	cursor:pointer;
+	margin:4px;
+}
+#wysiwyg-changer button{
+	border:1px solid black;
+	background-color: #bababa;
+}
+#wysiwyg-buttons button:hover, #wysiwyg-changer button:hover{
+	border:1px solid #191d23;
+	background-color: #83a5db;
+}
+#file-editor .st-table{
+	width: 100%;
+	overflow-x: auto;
+	text-align: center;
+}
+#file-editor .st-table table{
+	border-collapse: collapse;
+	border: 1px solid black;
+	margin: auto;
+}
+#file-editor .st-table table *{
+	white-space: nowrap;
+	background-color: #d6d4d4;
+	border: 1px solid black;
+}
+#file-editor .st-table table th{
+	text-align: center;
+}
+#code-only{
+	text-align: center;
+}
+#code-only a{
+	color: red;
+}
+.filecontent-wrapper{
+	width: 100%;
+	text-align:center;
+}
+@media(min-width:1px){
+	#filecontent{
+		box-sizing:border-box;
+		width:100%;
+	}
+	div.filecontent-clone{
+		width:100%;
+	}
+}
+/*File manager*/
+.file-list{
+	border-collapse: collapse;
+	border: 1px solid black;
+	margin: auto;
+}
+.file-list *{
+	white-space: nowrap;
+}
+.file-list tr, .file-list td, .file-list th{
+	border: 1px solid black;
+}
+.file-list th{
+	text-align: center;
+}
+.file-list a{
+	color:#032611;
+}
+.file-list .file-input *{
+	display: block;
+	width: 96%;
+}
+@media(min-width:1px){
+	.file-list .file-input *{
+		box-sizing: border-box;
+		width: 100%;
+	}
+}
+/*Footer*/
+.footer{
+	text-align:right;
+}
+.footer a{
+	position:static;
+	color:#368;
+	float:none;
+}
+.credit-footer{
+	display:block;
+}
